@@ -1,6 +1,6 @@
-# :sparkles:Weather App Review:sparkles:
+<h1 align="center">:sparkles:Weather App Review:sparkles:</h1>
 
-<p>
+<p align="center">
   <img src="/images/app-img.jpg" width="750px" title="weather-app-review">
 </p>
 
