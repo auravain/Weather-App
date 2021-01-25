@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background-color: rgb(172, 172, 196);
+}
+
+.App {
+	position: relative;
+	top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid rgba(228, 217, 217, 0.568);
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	padding: 50px;
+	padding-bottom: 150px;
+	padding-left: -5px;
+	padding-right: -5px;
+	margin-left: 350px;
+	margin-right: 400px;
+	background: url('./images-src/background-app.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	border-bottom-color: rgba(199, 199, 216, 0.521);
+	border-right-color: rgba(199, 199, 216, 0.521);
+}
+
+.form {
+	text-align: center;
+	position: center;
+	margin-bottom: 400px;
+	padding-right: -100px;
+}
+
+select {
+	width: 240px;
+	height: 50px;
+	font-size: 25px;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	left: 550px;
+	align-items: center;
+	background-color: rgba(223, 223, 243, 0.521);
+}
+select:focus {
+	outline: none;
+}
+select:hover {
+	background-color: rgba(73, 73, 141, 0.397);
+}
+
+.forecastsContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	right: 120px;
+	border-radius: 20px;
+	background-color: rgba(223, 223, 243, 0.521);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+.forecastContainer {
+	width: 150px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.forecastContainer-currentDay {
+	width: 150px;
+	height: 200px;
+	border: 2px solid rgb(129, 123, 123);
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(250, 250, 250);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	background-color: rgba(236, 236, 255, 0.521);
+}
+.forecastContainer-currentDay:hover {
+	background-color: rgba(73, 73, 141, 0.397);
+}
+
+.date {
+	color: grey;
+}
+
+.minMax {
+	max-width: 100%;
+	display: flex;
+}
+
+.max {
+	margin-right: 15px;
+	color: rgb(55, 55, 68);
+}
+
+.min {
+	color: grey;
+}
